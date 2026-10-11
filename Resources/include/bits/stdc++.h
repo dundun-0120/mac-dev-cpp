@@ -1,0 +1,41 @@
+// Compatibility shim: Dev-C++ / GCC code commonly uses #include <bits/stdc++.h>,
+// which Apple clang does not ship. This mirrors the standard subset used in class.
+#pragma once
+
+#include <algorithm>
+#include <array>
+#include <assert.h>
+#include <bitset>
+#include <cassert>
+#include <cctype>
+#include <chrono>
+#include <climits>
+#include <cmath>
+#include <complex>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+#include <deque>
+#include <fstream>
+#include <functional>
+#include <iomanip>
+#include <iostream>
+#include <iterator>
+#include <limits>
+#include <list>
+#include <map>
+#include <memory>
+#include <numeric>
+#include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <string>
+#include <tuple>
+#include <type_traits>
+#include <unordered_map>
+#include <unordered_set>
+#include <utility>
+#include <valarray>
+#include <vector>
